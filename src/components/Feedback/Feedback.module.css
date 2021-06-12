@@ -1,0 +1,14 @@
+.btn {
+  margin: 0 10px;
+  padding: 3px 0px;
+  width: 100px;
+  border-radius: 10px;
+  transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  font-size: 20px;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  background-color: #7474eb;
+}
